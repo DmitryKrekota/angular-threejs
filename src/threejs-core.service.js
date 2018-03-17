@@ -71,7 +71,7 @@
 			// Reset when switching between views, routes or states (with ui-router	module).
 			// Use of renderer.setSize in a directive resets the viewport to full size.
 			// No view independent reset availible for scissor so can only set ScissorTest to false
-			renderer.enableScissorTest ( false );
+			renderer.setScissorTest( false );
 			renderer.setClearColor( 0x000000, 0.0 );
 		}
 
